@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuscaPet</title>
+    <link rel="stylesheet" href="estilos/index.css">
+</head>
+<body>
+    <header>
+        <nav class="header__nav">
+            <div class="header__logo">
+                <a href="index.html"><img src="imagens/patinha.png" alt="patinha"></a>
+                <div class="header__logo-overlay"></div>
+
+            </div>
+
+            <ul class="header__menu">
+                <li>
+                    <a href="#gatos">GATOS</a>
+                </li>
+                <li>
+                    <a href="cachorros">CACHORROS</a>
+                </li>
+                <li>
+                    <a href="#outros">OUTROS</a>
+                </li>
+                <li>
+                    <a href="#comunidade">COMUNIDADE</a>
+                </li>
+                <li>
+                    <a href="#quem-somos">QUEM SOMOS</a>
+                </li>
+            </ul>
+
+            <ul class="header__menu-mobile">
+                <li>
+                    <img src="imagens/patinha.png"
+                    alt="menu" />
+                </li>
+            </ul>
+            </div>
+            <div class="Login">
+                <a href="login.html">Entrar</a>
+                <p>|</p>
+                <a href="cadastro.html">Cadastro</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <div class="main-esq">
+            <h1>
+                Encontre seu <span class="Pet">Pet</span>
+            </h1>
+            <form action="/search" method="get">
+                <input type="search" name="q" placeholder="Pesquisar...">
+                <button type="submit">Pesquisar</button>
+            </form>
+            <p>
+                Mostrando 'x' Pets em um raio de 'y' km 
+            </p>
+            <div>
+                <h2>
+                    Cachorro Macho
+                </h2>
+                <p>
+                    Encontrado - 3km de distância
+                </p>
+                <ul>
+                    <li>Perdido em: </li>
+                    <li>Achado em:</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div>
+                <h2>
+                    Gata Fêmea
+                </h2>
+                <p>
+                    Perdida - 200m de distância
+                </p>
+                <ul>
+                    <li>Perdido em: </li>
+                    <li>Achado em:</li>
+                    <li>...</li>
+                </ul>
+            </div>
+
+
+       </div>
+        <img src="imagens/mapa1.png" alt="mapa_1" class="mapa"> 
+    </main>
+</body>
+</html>
